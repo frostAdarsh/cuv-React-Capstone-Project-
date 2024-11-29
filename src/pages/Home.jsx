@@ -1,9 +1,14 @@
+import SignupForm from "../components/SignupForm";
 
-
-const Home = () => {
+export default function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="bigcontainer">
+      <div className="leftcontainer">
+        <p className="textleft">Discover new things on Superapp</p>
+      </div>
+      <div className="rightcontainer">
+        <SignupForm />
+      </div>
+    </div>
+  );
 }
-
-export default Home
