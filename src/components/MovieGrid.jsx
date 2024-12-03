@@ -16,10 +16,10 @@ export default function MovieGrid({ movie, selected, setSelected }) {
     }
     return (
         <div style={{
-            border: generateBorder(movie.label),
+            border: generateBorder(movie.label), background:(movie.bs), color:"white",
         }} onClick={handleSelection} className={styles.movie_box}>
-            <img src={movie.image} alt={movie.label} />
-            <h2>{movie.label}</h2>
+            <h2 className={styles.imgtext}>{movie.label}</h2>
+            <img  className={styles.imgsize}src={movie.image} alt={movie.label} />
         </div>
     )
 }
