@@ -10,7 +10,7 @@ export default function MovieGrid({ movie, selected, setSelected }) {
     }
     const generateBorder = (label) => {
         if (selected.includes(label)) {
-            return "2px solid green"
+            return "3px solid green"
         }
         return "2px solid black"
     }

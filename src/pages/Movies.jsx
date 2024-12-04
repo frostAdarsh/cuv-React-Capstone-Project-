@@ -75,6 +75,7 @@ const Movies = () => {
     <div className={styles.spacebox}>
       <div className={styles.spacebox_left}>
         <h1 className={styles.movie_supertext}>Super app</h1>
+        <h1 className={styles.details_text}>Choose your <br /> entertainment <br /> category</h1>
         <div className={styles.movie_chips}>
           {selected.map((movie) => (
             <MovieChip

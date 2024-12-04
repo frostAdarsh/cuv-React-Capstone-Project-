@@ -10,7 +10,7 @@ export default function MovieChip({ movie, selected, setSelected }) {
     return (
         <>
             <div onClick={handleSelection} className={styles.movie_chip} >
-                <p className={styles.movie_text}>{movie} x
+                <p className={styles.movie_text}>{movie} <span className={styles.cross_style}>X</span>
                 </p>
 
             </div>

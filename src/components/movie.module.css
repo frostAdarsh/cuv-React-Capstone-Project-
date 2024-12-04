@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Single+Day&display=swap");
 .movie_grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 1rem;
-  width :fit-content;
+  width: fit-content;
 }
 
 .spacebox {
@@ -17,13 +17,12 @@
 .spacebox_right {
   flex-grow: 0.1;
   margin: 80px 50px 40px 35px;
-
 }
-.imgsize{
+.imgsize {
   width: 130px;
   border: none;
 }
-.imgtext{
+.imgtext {
   font-size: 25px;
   position: relative;
   top: -26px;
@@ -32,12 +31,12 @@
   font-family: DM Sans;
 }
 
-.nextbtn{
-  background-color:#148A08;
+.nextbtn {
+  background-color: #148a08;
   color: white;
   font-weight: 500;
   border-radius: 15px;
-  font-size:20px ;
+  font-size: 20px;
   padding: 5px;
   text-align: center;
   width: 150px;
@@ -47,13 +46,12 @@
   cursor: pointer;
 }
 .spacebox_left {
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 150px;
   flex-grow: 1;
   background-color: black;
-  
 }
-.warningcolor{
-  color: #FF0000;
+.warningcolor {
+  color: #ff0000;
 }
 
 .movie_supertext {
@@ -62,6 +60,17 @@
   font-weight: 400;
   font-size: 60px;
   margin-top: 57px;
+}
+.details_text {
+  color: white;
+  font-family: "Roboto";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 74.99px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 25px;
 }
 .movie_box {
   display: flex;
@@ -82,11 +91,23 @@
   margin: 0.5rem;
   padding-top: 0.5rem;
   cursor: pointer;
-  border-radius: 12px;
+  border-radius: 17px;
   width: 7rem;
   background: green;
 }
 .movie_text {
   color: white;
   border: none;
+  font-family: "Roboto";
+  padding: 5px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.cross_style{
+  color: #085C00;
+  font-family: "Roboto";
+  font-weight: 400;
+  position: relative;
+  right: -2px;
 }
