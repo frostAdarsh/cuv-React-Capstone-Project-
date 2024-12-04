@@ -101,7 +101,7 @@ const Movies = () => {
             />
           ))}
         </div>
-        <h1 className={styles.nextbtn}>Next Page</h1>
+        <button className={styles.nextbtn}>Next Page</button>
       </div>
     </div>
   );

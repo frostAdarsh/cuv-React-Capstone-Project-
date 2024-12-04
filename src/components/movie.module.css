@@ -16,7 +16,7 @@
 }
 .spacebox_right {
   flex-grow: 0.1;
-  margin: 80px 50px 40px 35px;
+  margin: 80px 70px 40px 35px;
 }
 .imgsize {
   width: 130px;
@@ -42,8 +42,9 @@
   width: 150px;
   float: right;
   margin-top: 27px;
-  margin-right: 60px;
+  margin-right: 35px;
   cursor: pointer;
+  border: none;
 }
 .spacebox_left {
   margin: 0px 0px 0px 150px;
